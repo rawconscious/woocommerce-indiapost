@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BookingManifest>   
+    <manifestDetail>
+        <consigneeAddress>
+            <name>
+            <address1>
+            <address2>
+            <address3>
+            <city>
+            <pincode>
+            <CountryCode>
+            <MobileNo>
+        </consigneeAddress>
+
+        <shipmentPackageInfo>
+
+            <articleNumber>
+
+            <referenceNumber>
+
+            <ShipmentMethodOfPayment>
+
+            <CashOnDeliveryCharge>
+                <chargeOrAllowance>
+                <monetaryAmount currencyISOCode="INR">
+            </CashOnDeliveryCharge>
+            
+            <shipmentPackageActualGrossWeight>
+                <weightValue unitOfMeasure="KG">
+            </shipmentPackageActualGrossWeight>
+
+            <insuredValue>
+
+            <ProofOfDelivery>
+
+        </shipmentPackageInfo>
+    </manifestDetail>
+</BookingManifest>

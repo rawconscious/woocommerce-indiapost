@@ -1,0 +1,36 @@
+{
+    "name": "woocommerce-india-post",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:wcip": "wp-scripts build src/rc-wcip.js --output-path=build/rc-wcip/",
+        "start:wcip": "wp-scripts start src/rc-wcip.js --output-path=build/rc-wcip/",
+        "build:error": "wp-scripts build src/rc-invalid.js --output-path=build/invalid/",
+        "start:error": "wp-scripts start src/rc-invalid.js --output-path=build/invalid/"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@wordpress/api-fetch": "^6.14.0",
+        "@wordpress/babel-plugin-import-jsx-pragma": "^4.1.0",
+        "react-hook-form": "^7.44.3",
+        "react-router-dom": "^6.4.3",
+        "wordpress": "^1.4.1"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.25",
+        "@types/react-dom": "^18.0.9",
+        "@wordpress/scripts": "^24.1.0",
+        "autoprefixer": "^10.4.13",
+        "css-loader": "^6.7.2",
+        "postcss": "^8.4.19",
+        "postcss-loader": "^7.0.1",
+        "postcss-preset-env": "^7.8.3",
+        "prettier-plugin-tailwindcss": "^0.3.0",
+        "style-loader": "^3.3.1",
+        "tailwindcss": "^3.2.4",
+        "webpack": "^5.75.0",
+        "webpack-cli": "^5.0.0",
+        "webpack-dev-server": "^4.11.1"
+    }
+}

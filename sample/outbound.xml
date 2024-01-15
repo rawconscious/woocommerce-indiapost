@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BookingManifest>
+    <manifestDetail>
+
+        <consigneeAddress>
+            <name>name</name>
+            <address1>address1</address1>
+            <address2>address2</address2>
+            <address3>address3</address3>
+            <city>Bangalore</city>
+            <pincode>560085</pincode>
+            <CountryCode>+91</CountryCode>
+            <MobileNo>8762657259</MobileNo>
+        </consigneeAddress>
+
+        <shipmentPackageInfo>
+            <articleNumber>14A</articleNumber>
+            <referenceNumber>45545454</referenceNumber>
+            <ShipmentMethodOfPayment>Cash</ShipmentMethodOfPayment>
+
+            <CashOnDeliveryCharge>
+                <chargeOrAllowance>30</chargeOrAllowance>
+                <monetaryAmount currencyISOCode="INR">12</monetaryAmount>
+            </CashOnDeliveryCharge>
+            
+            <shipmentPackageActualGrossWeight>
+                <weightValue unitOfMeasure="KG">2</weightValue>
+            </shipmentPackageActualGrossWeight>
+            
+            <insuredValue>1</insuredValue>
+            <ProofOfDelivery>OTP</ProofOfDelivery>
+        </shipmentPackageInfo>
+
+    </manifestDetail>
+</BookingManifest>

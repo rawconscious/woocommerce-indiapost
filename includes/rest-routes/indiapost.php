@@ -148,7 +148,7 @@ function rc_wcip_call_india_post_api_booking( WP_REST_Request $request ) {
 			$response_data = array(
 				'request_id'   => $order_id,
 				'request_type' => $request_type,
-				'request_json' => $request_json,
+				'request_json' => json_encode(array()),
 				'return_json'  => $response,
 			);
 
@@ -443,9 +443,9 @@ function rc_wcip_call_india_post_api_cancel( WP_REST_Request $request ) {
 
 			$request_data = array(
 				'request_id'   => $order_id,
-				'request_type' => $request_type,
+				'request_type' => 'cancel',
 				'request_json' => wp_json_encode( $request_json ),
-				'return_json'  => wp_json_encode( $response_data ),
+				'return_json'  => wp_json_encode( array() ),
 			);
 
 			$rc_wcip_status     = $wpdb->insert( $table_rc_wcip, $order_data );
